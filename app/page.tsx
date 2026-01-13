@@ -3,6 +3,9 @@ import { BrutalDemoWindow } from '@/features/brand/BrutalDemoWindow'
 import { Code, Palette, Zap, Users, Globe, Sparkles } from 'lucide-react'
 import type { Metadata } from 'next'
 
+// Extract current year to avoid hydration mismatch
+const CURRENT_YEAR = new Date().getFullYear()
+
 export const metadata: Metadata = {
   title: 'Tools & Mini Games | 4mdosx.dev - Web Design & Development Studio',
   description: 'Explore interactive tools and mini games. Zero friction, instant access. Web design and development studio crafting modern digital experiences with React, Next.js, and TypeScript.',
@@ -289,7 +292,7 @@ export default async function HomePage() {
           <div className="border-t-2 border-black pt-6 md:pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               <div className="text-xs text-black opacity-60">
-                © {new Date().getFullYear()} 4mdosx.dev. All rights reserved.
+                © {CURRENT_YEAR} 4mdosx.dev. All rights reserved. Build Version: {process.env.GIT_COMMIT}
               </div>
             </div>
           </div>

@@ -17,16 +17,10 @@ const demoComponents: Record<string, React.ComponentType> = {
 }
 
 export function BrutalDemoWindow() {
-  // 使用初始化函数设置初始值
-  const [randomDemo, setRandomDemo] = useState<DemoConfig | null>(() => {
-    if (demos.length > 0) {
-      const randomIndex = Math.floor(Math.random() * demos.length)
-      return demos[randomIndex]
-    }
-    return null
-  })
+  // Initialize with null to avoid hydration mismatch - will be set in useEffect
+  const [randomDemo, setRandomDemo] = useState<DemoConfig | null>(null)
   const [mounted, setMounted] = useState(false)
-  const [rotation, setRotation] = useState(() => (Math.random() - 0.5) * 6)
+  const [rotation, setRotation] = useState(0) // Start with 0 to avoid hydration mismatch
   const [key, setKey] = useState(0) // 用于强制重新渲染
 
   // 随机选择 demo 的函数
@@ -53,10 +47,17 @@ export function BrutalDemoWindow() {
   }
 
   useEffect(() => {
+    // Set random values only on client side to avoid hydration mismatch
+    if (demos.length > 0 && !randomDemo) {
+      const randomIndex = Math.floor(Math.random() * demos.length)
+      setRandomDemo(demos[randomIndex])
+      setRotation((Math.random() - 0.5) * 6)
+    }
+    
     setTimeout(() => {
       setMounted(true)
     }, 100)
-  }, [])
+  }, [randomDemo])
 
   if (!randomDemo) return null
 
