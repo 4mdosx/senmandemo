@@ -7,12 +7,14 @@ import { Heart, Home } from 'lucide-react'
 import { getDemoConfig } from '@/demos'
 import AlphabetDemo from '@/demos/alphabet'
 import DecodeDemo from '@/demos/decode'
+import PlinkoDemo from '@/demos/plinko'
 import WeekDemo from '@/demos/week'
 
 // Demo 组件映射
 const demoComponents: Record<string, React.ComponentType> = {
   alphabet: AlphabetDemo,
   decode: DecodeDemo,
+  plinko: PlinkoDemo,
   week: WeekDemo,
 }
 
