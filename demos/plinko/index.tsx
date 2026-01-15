@@ -104,8 +104,7 @@ export default function PlinkoDemo() {
                 PLINKO
               </div>
               <div className="text-xs text-black/70 mt-1">
-                React controls the engine; Pixi renders the stage. Trails are
-                spawned as fading sprites.
+                Drop balls into the slots.
               </div>
             </div>
 

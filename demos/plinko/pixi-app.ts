@@ -358,7 +358,7 @@ export function createPlinkoEngine(opts: PlinkoEngineOptions): PlinkoEngine {
       }
       dropTimeouts.length = 0
 
-      app.ticker.destroy()
+      app.ticker.remove(tick)
       reset()
       stage.removeChild(world)
       world.destroy({ children: true })

@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL('https://4mdosx.dev'),
   alternates: {
-    canonical: '/',
+    canonical: 'https://4mdosx.dev/',
   },
   openGraph: {
     title: 'Tools & Mini Games | 4mdosx.dev',
