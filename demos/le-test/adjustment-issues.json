@@ -1,0 +1,141 @@
+{
+  "title": "如何调整以下问题",
+  "issues": [
+    {
+      "id": "squat-depth",
+      "problem": "蹲不下去",
+      "solutions": [
+        {
+          "label": "伸展紧张肌群",
+          "items": ["臀", "股四", "股二"]
+        },
+        {
+          "label": "改善髋灵活性",
+          "items": ["娃娃蹲", "弓步转体"]
+        }
+      ]
+    },
+    {
+      "id": "knee-valgus",
+      "problem": "膝内扣",
+      "solutions": [
+        {
+          "label": "激活",
+          "items": ["激活臀部", "激活脚底"]
+        },
+        {
+          "label": "伸展内收和髂胫束",
+          "items": ["伸展内收和髂胫束", "臀桥", "青蛙趴", "单腿稳定"]
+        }
+      ]
+    },
+    {
+      "id": "squat-low-back",
+      "problem": "深蹲腰不适",
+      "solutions": [
+        {
+          "label": "激活与伸展",
+          "items": ["激活核心、臀", "伸展髋屈"]
+        },
+        {
+          "label": "改善足背屈",
+          "items": ["跪姿足背屈伸"]
+        }
+      ]
+    },
+    {
+      "id": "deadlift-low-back",
+      "problem": "硬拉腰疼",
+      "solutions": [
+        {
+          "label": "激活与伸展",
+          "items": ["激活核心", "伸展腿臀"]
+        },
+        {
+          "label": "改善骨盆",
+          "items": ["娃娃蹲", "死虫", "仰卧盆骨旋转"]
+        }
+      ]
+    },
+    {
+      "id": "shoulder-lateral-raise",
+      "problem": "肩关节不适/侧平举不舒服",
+      "solutions": [
+        {
+          "label": "松解与激活",
+          "items": ["松解胸背肌群", "激活肩袖肌群"]
+        },
+        {
+          "label": "改善斜方肌和菱形肌",
+          "items": ["高位沉肩", "钢线肩外旋", "钢线内旋"]
+        }
+      ]
+    },
+    {
+      "id": "shrugging",
+      "problem": "耸肩",
+      "solutions": [
+        {
+          "label": "激活",
+          "items": ["激活胸背肌群", "激活前锯肌"]
+        },
+        {
+          "label": "改善肩袖肌群灵活性",
+          "items": ["俯身Y", "高位沉肩"]
+        }
+      ]
+    },
+    {
+      "id": "triceps-sore",
+      "problem": "三头肌过酸",
+      "solutions": [
+        {
+          "label": "调整训练",
+          "items": ["调整握距", "调整发力顺序"]
+        }
+      ]
+    },
+    {
+      "id": "back-engagement",
+      "problem": "背部发力不好",
+      "solutions": [
+        {
+          "label": "松解与激活",
+          "items": ["松解肩袖肌群", "激活肩袖肌群"]
+        },
+        {
+          "label": "改善姿势",
+          "items": ["调整姿势", "脊柱挺直", "不含胸"]
+        }
+      ]
+    },
+    {
+      "id": "bent-over-low-back",
+      "problem": "俯身腰不适",
+      "solutions": [
+        {
+          "label": "激活",
+          "items": ["激活核心", "激活髋关节"]
+        },
+        {
+          "label": "改善姿势",
+          "items": ["脊背伸直", "避免弓背"]
+        }
+      ]
+    },
+    {
+      "id": "neck-pain",
+      "problem": "脖子疼",
+      "solutions": [
+        {
+          "label": "松解与激活",
+          "items": ["松解上斜方", "激活前锯肌"]
+        },
+        {
+          "label": "改善姿势",
+          "items": ["避免低头", "摆正位置"]
+        }
+      ]
+    }
+  ]
+}

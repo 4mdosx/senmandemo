@@ -1,0 +1,357 @@
+{
+  "targetMusclesTag": {
+    "肩手臂": [
+      "seated-machine-shoulder-press",
+      "seated-dumbbell-shoulder-press",
+      "standing-dumbbell-lateral-raise",
+      "bent-over-dumbbell-fly",
+      "ez-bar-curl",
+      "lying-triceps-extension"
+    ],
+    "胸": ["push-up", "seated-chest-press", "smith-bench-press"],
+    "背": [
+      "roman-chair-back-extension",
+      "seated-lat-pulldown",
+      "pull-up",
+      "smith-shrug"
+    ],
+    "下肢": [
+      "bodyweight-squat",
+      "goblet-squat",
+      "smith-squat",
+      "single-leg-calf-raise",
+      "kettlebell-stiff-leg-deadlift"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "bodyweight-squat",
+      "name": "自重深蹲",
+      "starred": true,
+      "targetMuscles": ["臀大肌", "股四头肌"],
+      "benefits": "",
+      "startingPosition": {
+        "posture": "站立，目视前方",
+        "upperBody": "双手抱于身前",
+        "torso": "腰背挺直",
+        "lowerBody": "双脚与肩同宽，自然外八"
+      },
+      "rangeOfMotion": "屈髋屈膝下至大腿平行地面，还原自然站立",
+      "breathing": "吸气向下，吐气还原",
+      "keyPoints": ["髋膝联动", "膝盖朝向脚尖", "背部平直"],
+      "progression": "高脚杯深蹲",
+      "regression": ["箱子深蹲", "凳上坐站"]
+    },
+    {
+      "id": "goblet-squat",
+      "name": "高脚杯深蹲",
+      "starred": true,
+      "targetMuscles": ["臀大肌", "股四头肌"],
+      "benefits": "",
+      "startingPosition": {
+        "posture": "站立，目视前方",
+        "upperBody": "双手持壶铃于胸前",
+        "torso": "腰背挺直",
+        "lowerBody": "双脚与肩同宽，自然外八"
+      },
+      "rangeOfMotion": "屈髋屈膝下至大腿平行地面，还原自然站立",
+      "breathing": "吸气向下，吐气还原",
+      "keyPoints": ["髋膝联动", "膝盖朝向脚尖", "背部平直"],
+      "progression": "史密斯深蹲",
+      "regression": ["自重深蹲", "箱子深蹲"]
+    },
+    {
+      "id": "smith-squat",
+      "name": "史密斯深蹲",
+      "starred": true,
+      "targetMuscles": ["臀大肌", "股四头肌"],
+      "benefits": "",
+      "startingPosition": {
+        "posture": "站立，目视前方",
+        "upperBody": "双手闭握杠铃，将杠铃置于斜方肌位置",
+        "torso": "腰背挺直",
+        "lowerBody": "双脚与肩同宽，自然外八"
+      },
+      "rangeOfMotion": "屈髋屈膝下至大腿平行地面，还原自然站立",
+      "breathing": "吸气向下，吐气还原",
+      "keyPoints": ["髋膝联动", "膝盖朝向脚尖"],
+      "progression": "杠铃深蹲",
+      "regression": ["高脚杯深蹲", "自重深蹲"]
+    },
+    {
+      "id": "single-leg-calf-raise",
+      "name": "单腿提踵",
+      "starred": true,
+      "targetMuscles": ["腓肠肌"],
+      "benefits": "",
+      "startingPosition": {
+        "posture": "站立，目视前方",
+        "upperBody": "自然置于腰部",
+        "torso": "腰背挺直",
+        "lowerBody": "双脚与肩同宽，自然外八"
+      },
+      "rangeOfMotion": "向上至脚离开地面至最高位置，向下还原",
+      "breathing": "吐气向上，吸气还原",
+      "keyPoints": ["全程重心位于前脚掌", "膝盖朝向脚尖"],
+      "progression": "负重提踵",
+      "regression": ["双侧提踵", "坐姿提踵"]
+    },
+    {
+      "id": "kettlebell-stiff-leg-deadlift",
+      "name": "壶铃直膝硬拉",
+      "starred": true,
+      "targetMuscles": ["肱二头肌", "臀大肌"],
+      "benefits": "紧实",
+      "startingPosition": {
+        "posture": "主动屈髋持握壶铃",
+        "upperBody": "正握闭握壶铃",
+        "torso": "腰背挺直",
+        "lowerBody": "双脚与髋同宽"
+      },
+      "rangeOfMotion": "向上至身体自然站立，向下还原至壶铃接近地面",
+      "breathing": "吐气向上，吸气还原",
+      "keyPoints": ["起始位置臀部高于膝盖", "主动屈髋", "膝盖朝向脚尖"],
+      "progression": "罗马尼亚硬拉",
+      "regression": ["壶铃臀桥", "臀桥"]
+    },
+    {
+      "id": "seated-machine-shoulder-press",
+      "name": "坐姿器械推肩",
+      "starred": true,
+      "targetMuscles": ["三角肌", "肱三头肌"],
+      "benefits": "增加肩膀宽度",
+      "startingPosition": {
+        "posture": "坐于训练凳",
+        "upperBody": "正握闭握把手、小臂垂直于地面",
+        "torso": "紧贴靠背",
+        "lowerBody": "双脚踩实地面"
+      },
+      "rangeOfMotion": "向上推至手臂自然伸直，还原至肘关节90度",
+      "breathing": "吐气向上，吸气还原",
+      "keyPoints": ["脊柱中立", "小臂全程垂直于地面、手腕中立"],
+      "progression": "坐姿哑铃推肩",
+      "regression": ["弹力带推举", "俯身Y"]
+    },
+    {
+      "id": "seated-dumbbell-shoulder-press",
+      "name": "坐姿哑铃推肩",
+      "starred": true,
+      "targetMuscles": ["三角肌", "肱三头肌"],
+      "benefits": "增加肩膀宽度",
+      "startingPosition": {
+        "posture": "坐于训练凳",
+        "upperBody": "对握哑铃",
+        "torso": "紧贴靠背",
+        "lowerBody": "双脚踩实地面"
+      },
+      "rangeOfMotion": "向上推至手臂自然伸直，还原至肘关节90度",
+      "breathing": "吐气向上，吸气还原",
+      "keyPoints": ["大臂活动于肩胛面", "小臂全程垂直于地面、手腕中立"],
+      "progression": "站姿哑铃推肩",
+      "regression": ["坐姿器械推肩", "俯身Y"]
+    },
+    {
+      "id": "standing-dumbbell-lateral-raise",
+      "name": "站姿哑铃侧平举",
+      "starred": true,
+      "targetMuscles": ["三角肌", "斜方肌"],
+      "benefits": "增加肩膀宽度",
+      "startingPosition": {
+        "posture": "自然站立",
+        "upperBody": "对握哑铃置于身体两侧",
+        "torso": "保持直立",
+        "lowerBody": "与肩同宽"
+      },
+      "rangeOfMotion": "向上抬起哑铃至大臂于地面平行，向下下落至身体两侧",
+      "breathing": "吐气向上，吸气还原",
+      "keyPoints": ["腕关节略低于肘关节", "拳眼相对或略为向上"],
+      "progression": "单手侧平举",
+      "regression": ["器械侧平举", "俯身Y"]
+    },
+    {
+      "id": "bent-over-dumbbell-fly",
+      "name": "俯身哑铃飞鸟",
+      "starred": true,
+      "targetMuscles": ["三角肌", "菱形肌"],
+      "benefits": "增加肩膀宽度",
+      "startingPosition": {
+        "posture": "俯身45-60度",
+        "upperBody": "对握哑铃",
+        "torso": "",
+        "lowerBody": "与肩同宽"
+      },
+      "rangeOfMotion": "向外侧用力抬至肩部齐高，还原至大腿前侧",
+      "breathing": "吐气向上，吸气还原",
+      "keyPoints": ["脊柱中立", "拳眼相对或略为向上"],
+      "progression": "绳索后束飞鸟",
+      "regression": ["俯身Y", "弹力带后束飞鸟"]
+    },
+    {
+      "id": "ez-bar-curl",
+      "name": "曲杠二头弯举",
+      "starred": true,
+      "targetMuscles": ["肱二头肌", "肱肌"],
+      "benefits": "增加手臂维度",
+      "startingPosition": {
+        "posture": "自然站立",
+        "upperBody": "闭握杠铃置于腿前侧",
+        "torso": "",
+        "lowerBody": "与肩同宽"
+      },
+      "rangeOfMotion": "向上用力将杠铃抬至肩部位置，还原至大腿前侧肘关节弯曲伸展",
+      "breathing": "吐气向上，吸气还原",
+      "keyPoints": ["缓慢下放", "避免耸肩"],
+      "progression": "单手哑铃弯举",
+      "regression": ["弹力带弯举", "集中弯举"]
+    },
+    {
+      "id": "lying-triceps-extension",
+      "name": "仰卧臂屈伸",
+      "starred": true,
+      "targetMuscles": ["肱三头肌"],
+      "benefits": "增加手臂维度",
+      "startingPosition": {
+        "posture": "仰卧躺训练凳",
+        "upperBody": "双手闭握杠铃、置于肩部上方",
+        "torso": "沉肩收背",
+        "lowerBody": "双脚踩住地面"
+      },
+      "rangeOfMotion": "下放杠铃于头上方，向上至手臂自然伸直",
+      "breathing": "吐气向上，吸气还原",
+      "keyPoints": ["保持大臂稳定", "身体贴紧训练凳"],
+      "progression": "窄握卧推",
+      "regression": ["钢线臂屈伸", "哑铃臂屈伸"]
+    },
+    {
+      "id": "roman-chair-back-extension",
+      "name": "罗马椅挺身",
+      "starred": true,
+      "targetMuscles": ["竖脊肌", "臀大肌", "腘绳肌"],
+      "benefits": "躯干稳定",
+      "startingPosition": {
+        "posture": "俯身于罗马凳上",
+        "upperBody": "双手交叉放于胸前",
+        "torso": "腰背挺直",
+        "lowerBody": "固定于踏板上"
+      },
+      "rangeOfMotion": "向下使躯干平行地面，向上还原至躯干与下肢一条直线",
+      "breathing": "吸气向下，吐气向上还原",
+      "keyPoints": ["脊柱中立", "臀部夹紧", "避免塌腰、低头、弓背"],
+      "progression": "负重挺身",
+      "regression": ["臀桥", "跪姿鸟狗"]
+    },
+    {
+      "id": "seated-lat-pulldown",
+      "name": "坐姿高位下拉",
+      "starred": true,
+      "targetMuscles": ["背阔肌", "肱二头肌"],
+      "benefits": "增加背部维度",
+      "startingPosition": {
+        "posture": "坐于训练凳上",
+        "upperBody": "正握把手、比肩略宽",
+        "torso": "腰背挺直",
+        "lowerBody": "固定于挡板上"
+      },
+      "rangeOfMotion": "向下用力将把手向身体拉至下巴和锁骨，向上还原至起始位置",
+      "breathing": "吐气向下，吸气还原",
+      "keyPoints": ["脊柱中立", "臀部夹紧", "避免塌腰、耸肩"],
+      "progression": "引体向上",
+      "regression": ["辅助引体向上", "俯身Y"]
+    },
+    {
+      "id": "push-up",
+      "name": "俯卧撑",
+      "starred": true,
+      "targetMuscles": ["胸大肌", "三角肌前束", "肱三头肌"],
+      "benefits": "增加胸部维度",
+      "startingPosition": {
+        "posture": "俯卧于地面",
+        "upperBody": "双手于肩膀同宽",
+        "torso": "臀部和腹部收紧",
+        "lowerBody": "自然伸直"
+      },
+      "rangeOfMotion": "向下至肘关节90度，向上推至手臂自然伸直",
+      "breathing": "吐气向上，吸气向下",
+      "keyPoints": ["五指张开", "臀部夹紧", "小臂垂直于地面"],
+      "progression": "负重俯卧撑",
+      "regression": ["跪姿俯卧撑", "墙式俯卧撑"]
+    },
+    {
+      "id": "seated-chest-press",
+      "name": "坐姿推胸",
+      "starred": true,
+      "targetMuscles": ["胸大肌", "三角肌前束", "肱三头肌"],
+      "benefits": "增加胸部维度",
+      "startingPosition": {
+        "posture": "坐于训练凳上",
+        "upperBody": "正握把手、握距宽于肩，高度低于肩部",
+        "torso": "腰背挺直",
+        "lowerBody": "双脚踩住地面"
+      },
+      "rangeOfMotion": "向前推至手臂自然伸直，还原至肘关节90度",
+      "breathing": "吐气向前，吸气还原",
+      "keyPoints": ["保持五点接触", "手腕中立位", "沉肩收背"],
+      "progression": "史密斯平板卧推",
+      "regression": ["俯卧撑", "夹胸器械"]
+    },
+    {
+      "id": "smith-bench-press",
+      "name": "史密斯平板卧推",
+      "starred": true,
+      "targetMuscles": ["胸大肌", "三角肌前束", "肱三头肌"],
+      "benefits": "增加胸部维度",
+      "startingPosition": {
+        "posture": "平躺训练凳上",
+        "upperBody": "正握把手、握距宽于肩，胸部位于杠铃正下方",
+        "torso": "沉肩收背",
+        "lowerBody": "双脚踩住地面"
+      },
+      "rangeOfMotion": "向上推至手臂自然伸直，还原至肘关节90度",
+      "breathing": "吐气向上，吸气还原",
+      "keyPoints": [
+        "保持五点接触",
+        "保持小臂垂直于地面",
+        "大臂于身体45-60度夹角",
+        "避免肩关节弹响"
+      ],
+      "progression": "杠铃平板卧推",
+      "regression": ["坐姿推胸", "上斜俯卧撑"]
+    },
+    {
+      "id": "smith-shrug",
+      "name": "史密斯耸肩",
+      "starred": true,
+      "targetMuscles": ["斜方肌", "肩胛提肌"],
+      "benefits": "",
+      "startingPosition": {
+        "posture": "自然站立",
+        "upperBody": "正握把手、握距宽于肩",
+        "torso": "挺胸抬头",
+        "lowerBody": "与肩同宽"
+      },
+      "rangeOfMotion": "向上耸肩至肩贴近耳朵，还原至最低",
+      "breathing": "吐气向上，吸气还原",
+      "keyPoints": ["脊柱中立位", "注意运动幅度"],
+      "progression": "杠铃耸肩",
+      "regression": ["徒手耸肩", "高位沉肩"]
+    },
+    {
+      "id": "pull-up",
+      "name": "引体向上",
+      "starred": true,
+      "targetMuscles": ["背阔肌", "肱二头肌"],
+      "benefits": "增加背部维度",
+      "startingPosition": {
+        "posture": "自然直立",
+        "upperBody": "正握把手、比肩略宽",
+        "torso": "挺胸抬头",
+        "lowerBody": "与肩同宽"
+      },
+      "rangeOfMotion": "向上至下巴过杆，还原至手臂自然伸直",
+      "breathing": "吐气向上，吸气还原",
+      "keyPoints": ["小臂垂直于地面", "核心收紧、躯干紧绷"],
+      "progression": "负重引体",
+      "regression": ["辅助引体向上", "坐姿高位下拉"]
+    }
+  ]
+}

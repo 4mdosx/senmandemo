@@ -4,6 +4,7 @@
 import { alphabetDemoConfig } from './alphabet/config'
 import { decodeDemoConfig } from './decode/config'
 import { plinkoDemoConfig } from './plinko/config'
+import { leTestDemoConfig } from './le-test/config'
 import { weekDemoConfig } from './week/config'
 import type { DemoConfig } from '@/platform/types'
 
@@ -13,6 +14,7 @@ export const demos: DemoConfig[] = [
   decodeDemoConfig,
   plinkoDemoConfig,
   weekDemoConfig,
+  leTestDemoConfig,
   // 后续添加更多 demo 配置
 ]
 

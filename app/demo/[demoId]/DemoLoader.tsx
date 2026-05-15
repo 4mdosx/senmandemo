@@ -8,6 +8,7 @@ import { getDemoConfig } from '@/demos'
 import AlphabetDemo from '@/demos/alphabet'
 import DecodeDemo from '@/demos/decode'
 import PlinkoDemo from '@/demos/plinko'
+import LeTestDemo from '@/demos/le-test'
 import WeekDemo from '@/demos/week'
 
 // Demo 组件映射
@@ -16,6 +17,7 @@ const demoComponents: Record<string, React.ComponentType> = {
   decode: DecodeDemo,
   plinko: PlinkoDemo,
   week: WeekDemo,
+  'le-test': LeTestDemo,
 }
 
 interface DemoLoaderProps {

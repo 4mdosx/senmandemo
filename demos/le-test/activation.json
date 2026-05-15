@@ -1,0 +1,179 @@
+{
+  "activationTag": {
+    "核心肌群": ["dead-bug", "bird-dog", "single-leg-glute-bridge"],
+    "肩袖肌群": ["scarecrow", "fortune-cat"],
+    "下斜方与前锯肌": ["prone-y"],
+    "髋关节": ["clam-shell", "short-foot-activation", "lunge-rotation", "supine-pelvic-tilt"]
+  },
+  "activations": [
+    {
+      "id": "dead-bug",
+      "name": "死虫式",
+      "starred": true,
+      "targetMuscle": "腹横肌、腹直肌、深层核心",
+      "purpose": "激活深层核心肌群，提高躯干稳定性，减少腰椎代偿",
+      "startingPosition": {
+        "sideNote": "仰卧于训练垫上",
+        "posture": "仰卧，腰背贴实地面",
+        "upperBody": "双臂上举垂直地面，肩胛贴地",
+        "lowerBody": "髋膝屈曲呈90度，小腿平行地面",
+        "movement": "对侧手脚同时缓慢伸展至接近地面后还原，保持腰腹稳定，每侧8–12次"
+      },
+      "difficultyProgression": "仅伸展手臂或仅伸展腿部；或缩短动作幅度",
+      "targetPopulation": "核心无力、深蹲/硬拉/俯身腰部不适、久坐人群",
+      "relatedIssues": ["squat-low-back", "deadlift-low-back", "bent-over-low-back"]
+    },
+    {
+      "id": "bird-dog",
+      "name": "猎鸟狗",
+      "starred": true,
+      "targetMuscle": "多裂肌、竖脊肌、臀肌、核心稳定肌群",
+      "purpose": "激活核心与臀肌协同，改善抗伸展与抗旋转能力",
+      "startingPosition": {
+        "sideNote": "四足跪撑于训练垫上",
+        "posture": "四足跪姿，脊柱中立",
+        "upperBody": "双手与肩同宽撑地，手臂伸直",
+        "lowerBody": "双膝与髋同宽跪地，大腿垂直地面",
+        "movement": "对侧手脚同时向前后伸展至与躯干成一直线，停留1–2秒后还原，每侧8–12次"
+      },
+      "difficultyProgression": "仅伸展手臂或腿部；或缩小伸展幅度",
+      "targetPopulation": "核心与臀肌无力、腰部不适、需要改善躯干稳定的人群",
+      "relatedIssues": ["squat-low-back", "bent-over-low-back", "knee-valgus"]
+    },
+    {
+      "id": "single-leg-glute-bridge",
+      "name": "单腿臀桥",
+      "starred": true,
+      "targetMuscle": "臀大肌、腘绳肌",
+      "purpose": "单侧激活臀部肌群，改善髋伸展力量与骨盆稳定性",
+      "startingPosition": {
+        "sideNote": "以右侧支撑为例",
+        "posture": "仰卧于训练垫上",
+        "upperBody": "双臂放于身体两侧，掌心向下",
+        "lowerBody": "右腿屈膝踩实地面，左腿伸直抬起",
+        "movement": "吐气时将髋部顶起至肩髋膝成一直线，顶峰收缩臀部1–2秒后缓慢下落，每侧10–15次"
+      },
+      "difficultyProgression": "双侧臀桥；或在髋部顶端增加弹力带侧向行走",
+      "targetPopulation": "臀肌无力、膝内扣、深蹲腰不适、跑步人群",
+      "relatedIssues": ["knee-valgus", "squat-low-back", "squat-depth"]
+    },
+    {
+      "id": "scarecrow",
+      "name": "稻草人",
+      "starred": true,
+      "targetMuscle": "冈下肌、小圆肌（肩袖外旋肌群）",
+      "purpose": "激活肩袖外旋肌群，改善肩关节稳定与旋转控制",
+      "startingPosition": {
+        "sideNote": "站姿或坐姿均可",
+        "posture": "站姿，躯干直立，核心收紧",
+        "upperBody": "上臂抬至与肩同高，屈肘90度，前臂垂直向下",
+        "lowerBody": "双脚与肩同宽，膝盖微屈",
+        "movement": "保持上臂不动，前臂向外旋转至与地面平行，缓慢还原，每侧12–15次"
+      },
+      "difficultyProgression": "弹力带增加阻力；或侧卧位进行外旋",
+      "targetPopulation": "肩袖肌群无力、侧平举/推举肩部不适、背部发力不佳人群",
+      "relatedIssues": ["shoulder-lateral-raise", "back-engagement"]
+    },
+    {
+      "id": "fortune-cat",
+      "name": "招财猫",
+      "starred": true,
+      "targetMuscle": "肩胛下肌、冈下肌（肩袖内外旋肌群）",
+      "purpose": "激活肩袖肌群，改善肩关节内旋/外旋控制与盂肱关节对位",
+      "startingPosition": {
+        "sideNote": "站姿，以右侧为例",
+        "posture": "侧身靠墙或扶固定物，躯干稳定",
+        "upperBody": "右侧上臂贴紧体侧，屈肘90度，前臂平行地面",
+        "lowerBody": "双脚前后错步站立，保持平衡",
+        "movement": "前臂向上旋转（外旋）至最大幅度后向下旋转（内旋），动作缓慢有控制，每侧12–15次"
+      },
+      "difficultyProgression": "弹力带绕前臂增加阻力",
+      "targetPopulation": "肩袖肌群无力、肩关节不适、训练前肩部激活",
+      "relatedIssues": ["shoulder-lateral-raise", "back-engagement", "shrugging"]
+    },
+    {
+      "id": "prone-y",
+      "name": "俯身Y",
+      "starred": true,
+      "targetMuscle": "下斜方肌、前锯肌、菱形肌",
+      "purpose": "激活下斜方与前锯肌，改善肩胛骨稳定与沉肩能力，缓解上斜方代偿",
+      "startingPosition": {
+        "sideNote": "俯卧于训练凳或地面",
+        "posture": "俯卧，躯干贴实凳面或地面",
+        "upperBody": "双臂向前上方伸直呈Y字形，拇指朝上",
+        "lowerBody": "双腿自然伸直或屈膝踩地保持稳定",
+        "movement": "吐气时将双臂抬离凳面，肩胛骨下沉后缩，顶峰停留1–2秒后缓慢下落，12–15次"
+      },
+      "difficultyProgression": "徒手小幅度起始；进阶可持轻哑铃或弹力带",
+      "targetPopulation": "耸肩、脖子疼、圆肩驼背、上交叉综合征人群",
+      "relatedIssues": ["shrugging", "neck-pain", "shoulder-lateral-raise"]
+    },
+    {
+      "id": "clam-shell",
+      "name": "蚌式开合",
+      "starred": true,
+      "targetMuscle": "臀中肌、臀小肌",
+      "purpose": "激活髋外展肌群，改善膝关节对线与骨盆侧向稳定",
+      "startingPosition": {
+        "sideNote": "以右侧臀中肌为例",
+        "posture": "侧卧于训练垫上",
+        "upperBody": "右侧手臂枕于头下或撑地，躯干保持稳定",
+        "lowerBody": "双膝屈曲约90度叠放，双脚并拢，髋膝呈90度",
+        "movement": "保持双脚接触，吐气时将上侧膝向外打开至最大幅度，顶峰收缩1–2秒后缓慢还原，每侧15–20次"
+      },
+      "difficultyProgression": "髋部靠墙增加稳定性要求；或踝部绑弹力带增加阻力",
+      "targetPopulation": "膝内扣、臀中肌无力、跑步及深蹲人群",
+      "relatedIssues": ["knee-valgus", "squat-depth"]
+    },
+    {
+      "id": "short-foot-activation",
+      "name": "短足激活",
+      "starred": true,
+      "targetMuscle": "足底内在肌、胫骨后肌",
+      "purpose": "激活足底肌群，建立足弓支撑，改善踝关节稳定与下肢力线",
+      "startingPosition": {
+        "sideNote": "单脚站立为例",
+        "posture": "单脚站立，目视前方",
+        "upperBody": "双手叉腰或扶墙保持平衡",
+        "lowerBody": "支撑脚全脚掌踩实地面，脚趾自然抓地",
+        "movement": "保持脚跟与脚趾不移位，将足弓向上「缩短」拱起，保持5–10秒后放松，重复10–15次"
+      },
+      "difficultyProgression": "双脚同时进行；进阶可闭眼或站在软垫上",
+      "targetPopulation": "扁平足、膝内扣、踝关节活动受限、走路较多人群",
+      "relatedIssues": ["knee-valgus", "squat-depth", "squat-low-back"]
+    },
+    {
+      "id": "lunge-rotation",
+      "name": "弓步转体",
+      "starred": true,
+      "targetMuscle": "臀肌、髋外旋肌群、核心旋转稳定肌群",
+      "purpose": "激活髋关节周围肌群，改善髋部灵活性与旋转控制",
+      "startingPosition": {
+        "sideNote": "以右侧弓步为例",
+        "posture": "弓步站立，躯干直立",
+        "upperBody": "双手合十于胸前，或持弹力带/药球",
+        "lowerBody": "右腿在前呈弓步，膝约90度，左腿在后伸直",
+        "movement": "躯干缓慢向右侧转体至最大幅度，保持骨盆朝前，还原后换侧，每侧8–10次"
+      },
+      "difficultyProgression": "缩小转体幅度；进阶可增加负重或加大弓步深度",
+      "targetPopulation": "蹲不下去、髋关节活动度差、久坐人群",
+      "relatedIssues": ["squat-depth", "bent-over-low-back"]
+    },
+    {
+      "id": "supine-pelvic-tilt",
+      "name": "仰卧骨盆旋转",
+      "starred": true,
+      "targetMuscle": "腹横肌、盆底肌、多裂肌",
+      "purpose": "激活深层核心，改善骨盆前后倾控制与腰椎中立位感知",
+      "startingPosition": {
+        "posture": "仰卧于训练垫上",
+        "upperBody": "双臂放于身体两侧，掌心向下",
+        "lowerBody": "双膝屈曲，双脚踩实地面，与髋同宽",
+        "movement": "吐气时将腰椎贴向地面（后倾骨盆），吸气时缓慢还原至中立，重复12–15次"
+      },
+      "difficultyProgression": "减小动作幅度；进阶可在骨盆后倾位进行死虫或臀桥",
+      "targetPopulation": "骨盆前倾、硬拉/深蹲腰部不适、核心控制力差人群",
+      "relatedIssues": ["deadlift-low-back", "squat-low-back", "bent-over-low-back"]
+    }
+  ]
+}
