@@ -4,14 +4,17 @@ const STARTING_POSITION_LABELS: {
   key: keyof StretchStartingPosition
   label: string
 }[] = [
-  { key: 'sideNote', label: '示例' },
   { key: 'posture', label: '姿态' },
   { key: 'upperBody', label: '上肢' },
   { key: 'torso', label: '躯干' },
   { key: 'lowerBody', label: '下肢' },
 ]
 
-function StartingPositionBlock({ position }: { position: StretchStartingPosition }) {
+function StartingPositionBlock({
+  position,
+}: {
+  position: StretchStartingPosition
+}) {
   const entries = STARTING_POSITION_LABELS.filter(({ key }) => position[key])
 
   if (entries.length === 0) return null
@@ -35,11 +38,6 @@ export function StretchCard({ stretch }: { stretch: StaticStretch }) {
   return (
     <div className="space-y-4 text-sm leading-relaxed">
       <p>
-        <span className="font-semibold text-muted-foreground">目标肌群：</span>
-        {stretch.targetMuscle}
-      </p>
-
-      <p>
         <span className="font-semibold text-muted-foreground">锻炼目的：</span>
         {stretch.purpose}
       </p>
@@ -53,13 +51,25 @@ export function StretchCard({ stretch }: { stretch: StaticStretch }) {
 
       <p>
         <span className="font-semibold text-muted-foreground">拉伸强度与时间：</span>
-        <span className="whitespace-pre-line">{stretch.intensityAndDuration}</span>
+        {stretch.intensityAndDuration}
+      </p>
+
+      <p>
+        <span className="font-semibold text-muted-foreground">读秒：</span>
+        {stretch.durationSeconds}S
       </p>
 
       <p>
         <span className="font-semibold text-muted-foreground">注意事项：</span>
         {stretch.precautions}
       </p>
+
+      {stretch.adjustmentPurpose && (
+        <p>
+          <span className="font-semibold text-muted-foreground">调整目的：</span>
+          {stretch.adjustmentPurpose}
+        </p>
+      )}
     </div>
   )
 }

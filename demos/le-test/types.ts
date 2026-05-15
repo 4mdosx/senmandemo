@@ -31,8 +31,7 @@ export interface ExerciseData {
 }
 
 export interface StretchStartingPosition {
-  sideNote?: string
-  posture?: string
+  posture: string
   upperBody?: string
   torso?: string
   lowerBody?: string
@@ -42,24 +41,23 @@ export interface StaticStretch {
   id: string
   name: string
   starred: boolean
-  targetMuscle: string
   purpose: string
   startingPosition: StretchStartingPosition
   forceDirection: string
   intensityAndDuration: string
+  durationSeconds: number
   precautions: string
+  adjustmentPurpose?: string
 }
 
 export interface StretchData {
   stretches: StaticStretch[]
 }
 
-export interface FoamRollerStartingPosition {
-  sideNote?: string
-  posture?: string
-  upperBody?: string
-  lowerBody?: string
-  movement?: string
+export interface FoamRollerMethod {
+  posture: string
+  foamRollerPosition?: string
+  movement: string
 }
 
 export interface FoamRollerRelease {
@@ -68,9 +66,19 @@ export interface FoamRollerRelease {
   starred: boolean
   targetMuscle: string
   purpose: string
-  startingPosition: FoamRollerStartingPosition
+  method: FoamRollerMethod
+  durationSeconds: number
   difficultyProgression: string
-  targetPopulation: string
+  precautions: string
+  adjustmentIssues: string
+}
+
+export interface FoamRollerStartingPosition {
+  sideNote?: string
+  posture?: string
+  upperBody?: string
+  lowerBody?: string
+  movement?: string
 }
 
 export interface FoamRollerData {

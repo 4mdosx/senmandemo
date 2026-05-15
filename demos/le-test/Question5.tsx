@@ -26,7 +26,7 @@ export default function Question5(props: ExamQuestionProps = {}) {
       title={
         <StretchTitleBlock
           stretch={current}
-          prompt="请说出该静态拉伸的目标肌群、锻炼目的、起始位置、发力方向、拉伸强度与时间、注意事项"
+          prompt="请说出该静态拉伸的锻炼目的、起始位置、发力方向、拉伸强度与时间、读秒、注意事项及调整目的"
         />
       }
       answer={<StretchCard stretch={current} />}

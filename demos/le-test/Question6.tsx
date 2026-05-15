@@ -26,7 +26,7 @@ export default function Question6(props: ExamQuestionProps = {}) {
       title={
         <FoamRollerTitleBlock
           release={current}
-          prompt="请说出该泡沫轴松解的目标肌群、锻炼目的、起始位置、运动方式、难度改善及针对人群"
+          prompt="请说出该泡沫轴松解的目标肌肉、锻炼目的、方式方法、读秒、难度改善、注意事项及调整问题"
         />
       }
       answer={<FoamRollerCard release={current} />}

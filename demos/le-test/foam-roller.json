@@ -1,146 +1,147 @@
 {
   "releases": [
     {
-      "id": "calf-triceps-release",
-      "name": "小腿三头泡沫轴松解",
+      "id": "calf-posterior-release",
+      "name": "小腿后侧放松",
       "starred": true,
       "targetMuscle": "小腿三头",
-      "purpose": "增加小腿后侧柔韧性和延展性，改善踝关节活动度",
-      "startingPosition": {
-        "sideNote": "以某侧为例",
-        "posture": "坐姿L形",
-        "upperBody": "双手放于躯干两侧",
-        "lowerBody": "一只脚放于地面，另一只小腿中部放在泡沫轴上方",
-        "movement": "前后滚动，30S"
+      "purpose": "增加小腿后侧柔韧性和延展性, 改善踝关节活动度",
+      "method": {
+        "posture": "坐姿L形，双手放于躯干两侧",
+        "foamRollerPosition": "一只脚放于地面, 另一只小腿中部放在泡沫轴中段",
+        "movement": "前后滚动，保持匀速呼吸"
       },
-      "difficultyProgression": "另一只脚放在小腿上增加压力",
-      "targetPopulation": "小腿紧张、酸胀（走路较多）、踝关节比较紧张的人群；不适用于孕妇及骨质疏松人群"
+      "durationSeconds": 30,
+      "difficultyProgression": "在酸痛点停住，调整重量和接触面",
+      "precautions": "不要按压到关节, 不适用于孕妇&骨质疏松人群",
+      "adjustmentIssues": "踝关节紧张"
     },
     {
-      "id": "tibialis-anterior-release",
-      "name": "胫骨前肌泡沫轴松解",
+      "id": "calf-anterior-release",
+      "name": "小腿前侧放松",
       "starred": true,
-      "targetMuscle": "胫骨前肌（小腿前侧）",
-      "purpose": "增加小腿前侧弹性和延展性，改善踝关节活动度",
-      "startingPosition": {
-        "sideNote": "以某侧为例",
-        "posture": "跪姿，身体跪于垫上",
-        "upperBody": "双手支撑在地面",
-        "lowerBody": "一只脚放于地面，另一只小腿（中外侧肌肉最多处）放在泡沫轴上部",
-        "movement": "进行前后滚动，保持匀速呼吸，保持30S（读秒）"
+      "targetMuscle": "胫骨前肌",
+      "purpose": "增加小腿前侧弹性和延展性, 改善踝关节活动度",
+      "method": {
+        "posture": "跪姿，身体跪于垫上，双手支撑在地面",
+        "foamRollerPosition": "一只脚放于地面, 另一只小腿（中外侧肌肉最多处）放在泡沫轴中段",
+        "movement": "前后滚动，保持匀速呼吸"
       },
-      "difficultyProgression": "在某个酸痛点停住，踝关节前后活动",
-      "targetPopulation": "小腿紧张、酸胀（走路较多）、踝关节活动比较差的人群"
+      "durationSeconds": 30,
+      "difficultyProgression": "在酸痛点停住，调整重量和接触面",
+      "precautions": "不要按压到关节, 不适用于孕妇&骨质疏松人群",
+      "adjustmentIssues": "踝关节紧张"
     },
     {
       "id": "hamstring-release",
-      "name": "腘绳肌泡沫轴松解",
+      "name": "大腿后侧放松",
       "starred": true,
-      "targetMuscle": "大腿后侧（腘绳肌）",
-      "purpose": "增加大腿后侧柔韧性和延展性，改善髋关节活动度",
-      "startingPosition": {
-        "sideNote": "以右侧为例",
-        "posture": "坐姿L形",
-        "upperBody": "双手支撑地面",
-        "lowerBody": "一只脚放于地面，右腿的大腿中部放在泡沫轴上部",
-        "movement": "进行前后滚动，保持匀速呼吸，保持30S（读秒）"
+      "targetMuscle": "腘绳肌",
+      "purpose": "增加大腿后侧柔韧性和延展性, 改善髋关节活动度",
+      "method": {
+        "posture": "坐姿L形，双手支撑地面",
+        "foamRollerPosition": "一只脚放于地面, 右腿的大腿中部放在泡沫轴中段",
+        "movement": "前后滚动，保持匀速呼吸"
       },
-      "difficultyProgression": "在痛点处加压",
-      "targetPopulation": "大腿紧张人群，腰部不舒服、久坐、髋关节活动度较差的人群"
+      "durationSeconds": 30,
+      "difficultyProgression": "在酸痛点停住，调整重量和接触面",
+      "precautions": "不要按压到关节, 不适用于孕妇&骨质疏松人群",
+      "adjustmentIssues": "大腿紧张，腰部不舒服、髋关节活动度差"
     },
     {
       "id": "quadriceps-release",
-      "name": "股四头肌泡沫轴松解",
+      "name": "大腿前侧放松",
       "starred": true,
-      "targetMuscle": "大腿前侧（股四头肌）",
-      "purpose": "增加大腿前侧柔韧性和延展性，改善膝关节活动度",
-      "startingPosition": {
-        "sideNote": "以右侧为例",
-        "posture": "俯卧平板支撑姿态",
-        "upperBody": "双手支撑地面",
-        "lowerBody": "按压位置为大腿前侧，髋关节与膝关节中点，泡沫轴沿着大腿的方向放置",
-        "movement": "上半身保持稳定，泡沫轴沿着大腿的方向上下滚动，保持30S（读秒）"
+      "targetMuscle": "股四头肌",
+      "purpose": "增加大腿后侧柔韧性和延展性, 改善髋/膝关节活动度",
+      "method": {
+        "posture": "俯卧，双手支撑地面",
+        "foamRollerPosition": "一只脚放于地面支持, 大腿前侧中部放在泡沫轴中段",
+        "movement": "上半身保持稳定，泡沫轴沿着大腿的方向上下滚动"
       },
-      "difficultyProgression": "在酸痛点进行加压释放，通过伸膝屈膝变化增加刺激",
-      "targetPopulation": "大腿前侧紧张，盆前倾、膝盖酸疼、跑步等人群"
+      "durationSeconds": 30,
+      "difficultyProgression": "在酸痛点停住，调整重量和接触面",
+      "precautions": "不要按压到关节, 不适用于孕妇&骨质疏松人群",
+      "adjustmentIssues": "大腿前侧紧张，盆骨前倾、膝盖酸疼"
     },
     {
       "id": "it-band-release",
-      "name": "髂胫束泡沫轴松解",
+      "name": "大腿外侧放松",
       "starred": true,
-      "targetMuscle": "大腿外侧（髂胫束）",
+      "targetMuscle": "髂胫束",
       "purpose": "增加髋关节活动度",
-      "startingPosition": {
-        "sideNote": "以某侧为例",
-        "posture": "侧支撑在泡沫轴上",
-        "upperBody": "上方的手支撑身体保持稳定",
-        "lowerBody": "按压位置为大腿正外侧，髋关节与膝关节中点，上方的腿放在身体前侧保持稳定，下方腿伸直",
-        "movement": "泡沫轴沿着大腿的方向上下滚动，保持30S（读秒）"
+      "method": {
+        "posture": "侧支撑在泡沫轴上，上方的手支撑身体保持稳定",
+        "foamRollerPosition": "上方的腿放在身体前侧保持稳定, 另一只腿伸直，髋关节与膝关节中点放在泡沫轴中段",
+        "movement": "泡沫轴沿着大腿的方向滚动"
       },
-      "difficultyProgression": "将支撑腿抬起，双腿并拢，压力增大",
-      "targetPopulation": "髂胫束摩擦综合征、膝盖疼人群、跑步人群"
+      "durationSeconds": 30,
+      "difficultyProgression": "在酸痛点停住，调整重量和接触面",
+      "precautions": "不要按压到关节, 不适用于孕妇&骨质疏松人群",
+      "adjustmentIssues": "髂胫束摩擦综合征、膝盖疼人群"
     },
     {
-      "id": "gluteus-maximus-release",
-      "name": "臀大肌泡沫轴松解",
+      "id": "glute-release",
+      "name": "臀部放松",
       "starred": true,
       "targetMuscle": "臀大肌",
-      "purpose": "增加臀部弹性和延展性，改善髋关节活动度",
-      "startingPosition": {
-        "sideNote": "以右侧为例",
-        "posture": "单侧臀部坐在泡沫轴上",
-        "lowerBody": "左侧脚踩在地面上，身体保持稳定",
-        "movement": "身体进行前后移动，保持匀速呼吸，保持30S（读秒）"
+      "purpose": "加臀部弹性和延展性, 改善髋关节活动度",
+      "method": {
+        "posture": "单侧臀部坐在泡沫轴上，左侧脚踩在地面上，身体保持稳定",
+        "movement": "身体进行前后移动，保持匀速呼吸"
       },
-      "difficultyProgression": "在酸痛点按压",
-      "targetPopulation": "上交叉人群，背部紧张、久坐、胸椎活动度比较差的人群"
+      "durationSeconds": 30,
+      "difficultyProgression": "在酸痛点停住，调整重量和接触面",
+      "precautions": "不要按压到关节, 不适用于孕妇&骨质疏松人群",
+      "adjustmentIssues": "上交叉人群，背部紧张，胸椎活动度"
     },
     {
       "id": "upper-back-release",
-      "name": "上背部泡沫轴松解",
+      "name": "上背部放松",
       "starred": true,
-      "targetMuscle": "上背部",
-      "purpose": "增加胸椎活动度，改善圆肩驼背",
-      "startingPosition": {
-        "posture": "仰卧于垫子上",
-        "upperBody": "双脚脚掌踩在地面上，身体支撑稳定",
-        "lowerBody": "双腿屈膝踩地",
-        "movement": "将泡沫轴放在胸椎位置，身体进行前后移动，保持匀速呼吸，保持30S（读秒）"
+      "targetMuscle": "肩胛骨周边肌群",
+      "purpose": "增加胸椎活动度, 改善圆肩驼背",
+      "method": {
+        "posture": "仰卧于垫子上，双腿屈膝90度踩地",
+        "foamRollerPosition": "将泡沫轴放在胸椎位置",
+        "movement": "身体进行前后移动，保持匀速呼吸"
       },
-      "difficultyProgression": "在酸痛点按压",
-      "targetPopulation": "上交叉人群，背部紧张、胸椎活动度比较差的人群"
+      "durationSeconds": 30,
+      "difficultyProgression": "在酸痛点停住，调整重量和接触面",
+      "precautions": "不要按压到关节, 不适用于孕妇&骨质疏松人群",
+      "adjustmentIssues": "背部紧张，胸椎活动度差"
     },
     {
-      "id": "latissimus-dorsi-release",
-      "name": "背阔肌泡沫轴松解",
+      "id": "latissimus-release",
+      "name": "背阔肌放松",
       "starred": true,
       "targetMuscle": "背阔肌",
-      "purpose": "增加背阔肌柔韧性和延展性，改善肩关节活动度",
-      "startingPosition": {
-        "sideNote": "以左侧为例",
-        "posture": "侧卧于垫子上",
-        "upperBody": "将泡沫轴放在背阔肌位置，单侧脚踩在地面上",
-        "lowerBody": "单侧腿屈膝踩地",
-        "movement": "身体进行前后滚动，保持30S（读秒）"
+      "purpose": "增加背阔肌柔韧性和延展性, 改善肩关节活动度",
+      "method": {
+        "posture": "侧卧于垫子上，单侧腿屈膝踩地",
+        "foamRollerPosition": "泡沫轴放在背阔肌位置",
+        "movement": "身体进行前后移动，保持匀速呼吸"
       },
-      "difficultyProgression": "在酸痛点按压",
-      "targetPopulation": "背阔肌紧张、上交叉人群，背部紧张、久坐、胸椎活动度比较差的人群"
+      "durationSeconds": 30,
+      "difficultyProgression": "在酸痛点停住，调整重量和接触面",
+      "precautions": "不要按压到关节, 不适用于孕妇&骨质疏松人群",
+      "adjustmentIssues": "背部紧张，胸椎活动度差"
     },
     {
-      "id": "pectoralis-major-release",
-      "name": "胸大肌泡沫轴松解",
+      "id": "pectoralis-release",
+      "name": "胸大肌放松",
       "starred": true,
       "targetMuscle": "胸大肌",
-      "purpose": "增加胸部柔韧性和延展性，改善肩关节活动度",
-      "startingPosition": {
-        "sideNote": "以某侧为例",
-        "posture": "俯卧于垫子上",
-        "upperBody": "将泡沫轴斜放在胸部位置，双膝跪在地面上，身体支撑稳定",
-        "lowerBody": "双膝跪地",
-        "movement": "身体进行前后移动，保持30S（读秒）"
+      "purpose": "增加胸部柔韧性和延展性, 改善肩关节活动度",
+      "method": {
+        "posture": "俯卧于垫子上，双膝跪地",
+        "foamRollerPosition": "泡沫轴斜放在胸部位置",
+        "movement": "摆动泡沫轴，保持匀速呼吸"
       },
-      "difficultyProgression": "在酸痛点按压、静止或摆动，保持30S（读秒）",
-      "targetPopulation": "上交叉人群，胸部肩部紧张、久坐、胸椎活动度比较差的人群"
+      "durationSeconds": 30,
+      "difficultyProgression": "在酸痛点停住，调整重量和接触面",
+      "precautions": "不要按压到关节, 不适用于孕妇&骨质疏松人群",
+      "adjustmentIssues": "胸部肩部紧张，胸椎活动度差"
     }
   ]
 }

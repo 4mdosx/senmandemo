@@ -2,91 +2,90 @@
   "stretches": [
     {
       "id": "iliopsoas-stretch",
-      "name": "髂腰肌静态拉伸",
+      "name": "髂腰肌",
       "starred": true,
-      "targetMuscle": "髂腰肌",
       "purpose": "增加髂腰肌的弹性和伸展性，改善髋关节活动度。",
       "startingPosition": {
-        "sideNote": "以右侧髂腰肌为例",
         "posture": "弓步跪姿在垫子上",
         "upperBody": "双手叉腰，上半身挺直",
         "lowerBody": "左脚在前呈支撑，右脚跪于训练垫上，支撑腿膝盖约90度"
       },
       "forceDirection": "双脚固定不动，身体向前平移",
-      "intensityAndDuration": "当感受到有明显牵拉感时(RPE5-6)保持30S\n(读秒30'—20'—10'—)",
-      "precautions": "自然呼吸，骨盆中立减少左右倾斜"
+      "intensityAndDuration": "当感受到有明显牵拉感时(RPE5-6) 时间约30秒",
+      "durationSeconds": 30,
+      "precautions": "自然呼吸，骨盆中立减少左右倾斜",
+      "adjustmentPurpose": "髋关节活动度"
     },
     {
       "id": "gastrocnemius-stretch",
-      "name": "腓肠肌静态拉伸",
+      "name": "腓肠肌",
       "starred": true,
-      "targetMuscle": "腓肠肌（小腿）",
-      "purpose": "增加腓肠肌的弹性和伸展性，改善踝关节活动度。",
+      "purpose": "增加腓肠肌的弹性和伸展性，改善踝关节活动度",
       "startingPosition": {
-        "sideNote": "以左侧腓肠肌为例",
         "posture": "弓步站立，面向固定物",
-        "upperBody": "双手扶住固定物（如桌子）",
+        "upperBody": "双手扶住固定物",
         "lowerBody": "左脚在后，脚尖向前，脚跟踩实地面"
       },
-      "forceDirection": "左脚跟贴实地面，躯干向前发力",
-      "intensityAndDuration": "当感受到有明显牵拉感时(RPE5-6)保持30S",
-      "precautions": "自然呼吸，躯干不要晃动，脚尖与骨盆都指向前方"
+      "forceDirection": "保持脚跟贴实地面，躯干向前发力",
+      "intensityAndDuration": "当感受到有明显牵拉感时(RPE5-6) 时间约30秒",
+      "durationSeconds": 30,
+      "precautions": "自然呼吸，躯干不要晃动，脚尖与骨盆都指向前方",
+      "adjustmentPurpose": "髋关节活动度"
     },
     {
       "id": "hamstring-stretch",
-      "name": "股二头肌静态拉伸",
+      "name": "腘绳肌",
       "starred": true,
-      "targetMuscle": "股二头肌（大腿后侧）",
-      "purpose": "增加股二头肌的弹性和伸展性，改善髋关节活动度。",
+      "purpose": "增加股腘绳肌的弹性和伸展性，改善髋关节活动度。",
       "startingPosition": {
-        "sideNote": "以左侧股二头肌为例",
         "posture": "仰卧在训练垫上",
-        "upperBody": "双手抱住左侧大腿后侧",
+        "upperBody": "双手抱住一侧大腿后侧",
         "torso": "背部紧贴地面",
         "lowerBody": "右腿伸直贴紧地面，左腿屈膝抬起"
       },
       "forceDirection": "骨盆固定不动，发力将腿拉向躯干方向",
-      "intensityAndDuration": "当感受到有明显牵拉感时(RPE5-6)保持30S",
-      "precautions": "自然呼吸，另一侧大腿始终贴紧地面"
+      "intensityAndDuration": "当感受到有明显牵拉感时(RPE5-6) 时间约30秒",
+      "durationSeconds": 30,
+      "precautions": "自然呼吸，另一侧大腿始终贴紧地面",
+      "adjustmentPurpose": "髋关节活动度"
     },
     {
       "id": "gluteus-maximus-stretch",
-      "name": "臀大肌静态拉伸",
+      "name": "臀大肌",
       "starred": true,
-      "targetMuscle": "臀大肌",
       "purpose": "增加臀大肌的弹性和伸展性，改善髋关节活动度。",
       "startingPosition": {
-        "sideNote": "以右侧臀大肌为例",
         "posture": "俯卧在瑜伽垫上",
         "upperBody": "双手支撑在垫上",
         "lowerBody": "右腿屈膝，小腿位于腹部下方；左腿向后伸直"
       },
       "forceDirection": "髋部固定不动，上半身向前俯，让腹部靠近腿部",
-      "intensityAndDuration": "当感受到有明显牵拉感时(RPE5-6)保持30S",
-      "precautions": "自然呼吸，骨盆中立减少左右倾斜；如活动受限可减小拉伸侧髋部幅度"
+      "intensityAndDuration": "当感受到有明显牵拉感时(RPE5-6) 时间约30秒",
+      "durationSeconds": 30,
+      "precautions": "自然呼吸、骨盆中立减少左右倾斜，如活动受限可减小拉伸侧髋部幅度",
+      "adjustmentPurpose": "髋关节活动度"
     },
     {
       "id": "quadriceps-stretch",
-      "name": "股四头肌静态拉伸",
+      "name": "股四头肌",
       "starred": true,
-      "targetMuscle": "股四头肌（大腿前侧）",
-      "purpose": "增加股四头肌的弹性和伸展性，改善膝关节活动度。",
+      "purpose": "增加股四头肌的弹性和伸展性，改善膝关节活动度",
       "startingPosition": {
-        "sideNote": "以左侧股四头肌为例",
         "posture": "站立",
         "upperBody": "左手抓住左脚脚踝前侧，如果不稳，可找固定物扶住",
         "lowerBody": "右腿支撑身体"
       },
       "forceDirection": "骨盆固定不动，手臂拉脚踝向后上方发力",
-      "intensityAndDuration": "当感受到有明显牵拉感时(RPE5-6)保持30S",
-      "precautions": "自然呼吸，躯干不晃动，避免两腿间距过大"
+      "intensityAndDuration": "当感受到有明显牵拉感时(RPE5-6) 时间约30秒",
+      "durationSeconds": 30,
+      "precautions": "自然呼吸，躯干不晃动，避免两腿间距过大",
+      "adjustmentPurpose": "膝关节活动度"
     },
     {
       "id": "biceps-stretch",
-      "name": "肱二头肌静态拉伸",
+      "name": "肱二头肌",
       "starred": true,
-      "targetMuscle": "肱二头肌",
-      "purpose": "增加肱二头肌的弹性和伸展性，改善肩关节活动度。",
+      "purpose": "增加肱二头肌的弹性和伸展性，改善肩关节活动度",
       "startingPosition": {
         "posture": "坐在训练凳上，上半身挺直",
         "upperBody": "前臂内旋，手臂伸直置于身体后方",
@@ -94,14 +93,15 @@
         "lowerBody": "双脚踩实"
       },
       "forceDirection": "躯干固定不动，双手向后上方发力",
-      "intensityAndDuration": "当感受到有明显牵拉感时(RPE5-6)保持30S",
-      "precautions": "自然呼吸，脊柱中立，不要为了追求幅度导致躯干含胸"
+      "intensityAndDuration": "当感受到有明显牵拉感时(RPE5-6) 时间约30秒",
+      "durationSeconds": 30,
+      "precautions": "自然呼吸，躯干不晃动，避免两腿间距过大",
+      "adjustmentPurpose": "自然呼吸，脊柱中立，不要为了追求幅度导致躯干含胸"
     },
     {
       "id": "rectus-abdominis-stretch",
-      "name": "腹直肌静态拉伸",
+      "name": "腹直肌",
       "starred": true,
-      "targetMuscle": "腹直肌",
       "purpose": "增加腹直肌的弹性和伸展性，改善脊柱活动度。",
       "startingPosition": {
         "posture": "俯卧在瑜伽垫上，上半身抬起",
@@ -109,109 +109,108 @@
         "lowerBody": "双腿自然伸直"
       },
       "forceDirection": "骨盆固定不动，手臂推躯干离开地面向身体后方发力",
-      "intensityAndDuration": "当感受到有明显牵拉感时(RPE5-6)保持30S",
-      "precautions": "自然呼吸，脊柱中立，躯干不晃动，避免腰椎压力增大"
+      "intensityAndDuration": "当感受到有明显牵拉感时(RPE5-6) 时间约30秒",
+      "durationSeconds": 30,
+      "precautions": "自然呼吸，脊柱中立，躯干不晃动，避免腰椎压力增大",
+      "adjustmentPurpose": "脊柱紧张，腰酸、腰部不适"
     },
     {
       "id": "quadratus-lumborum-stretch",
-      "name": "腰方肌静态拉伸",
+      "name": "腰方肌",
       "starred": true,
-      "targetMuscle": "腰方肌",
       "purpose": "增加腰方肌的弹性和伸展性，改善脊柱活动度。",
       "startingPosition": {
-        "sideNote": "以右侧腰方肌为例",
         "posture": "坐在瑜伽垫上",
-        "upperBody": "左手撑地",
-        "torso": "右手引导躯干向左侧弯曲，骨盆固定不动，向对侧侧屈",
+        "upperBody": "左手支持，右手引导躯干向左侧弯曲",
+        "torso": "保持重心不变",
         "lowerBody": "双腿分开"
       },
       "forceDirection": "骨盆固定不动，躯干向对侧做伸展",
-      "intensityAndDuration": "当感受到有明显牵拉感时(RPE5-6)保持30S",
-      "precautions": "自然呼吸，脊柱中立，躯干不晃动；如大腿后侧张力大，可将腿略微弯曲"
+      "intensityAndDuration": "当感受到有明显牵拉感时(RPE5-6) 时间约30秒",
+      "durationSeconds": 30,
+      "precautions": "自然呼吸，脊柱中立，躯干不晃动,  如大腿后侧张力大，可将腿略微弯曲",
+      "adjustmentPurpose": "脊柱紧张，腰酸、腰部不适"
     },
     {
       "id": "latissimus-dorsi-stretch",
-      "name": "背阔肌静态拉伸",
+      "name": "背阔肌",
       "starred": true,
-      "targetMuscle": "背阔肌（俯身双侧背部伸展）",
-      "purpose": "增加背阔肌的弹性和伸展性，改善肩关节活动度。",
+      "purpose": "加背阔肌的弹性和伸展性，改善肩关节活动度。",
       "startingPosition": {
-        "sideNote": "以双侧为例",
         "posture": "站立，面向训练凳",
         "upperBody": "双手握住训练凳",
-        "torso": "脊柱中立，俯身向下",
+        "torso": "俯身向下",
         "lowerBody": "双脚与肩同宽，膝盖微屈"
       },
-      "forceDirection": "躯干固定不动，吐气向下自然发力，感受背部拉伸",
-      "intensityAndDuration": "当感受到有明显牵拉感时(RPE5-6)保持30S",
-      "precautions": "自然呼吸，脊柱中立"
+      "forceDirection": "躯干固定不动，吐气向下屈髋发力，感受背部拉伸",
+      "intensityAndDuration": "当感受到有明显牵拉感时(RPE5-6) 时间约30秒",
+      "durationSeconds": 30,
+      "precautions": "自然呼吸，脊柱中立",
+      "adjustmentPurpose": "背部训练没有发力感、肩关节活动差"
     },
     {
       "id": "trapezius-stretch",
-      "name": "斜方肌静态拉伸",
+      "name": "斜方肌",
       "starred": true,
-      "targetMuscle": "斜方肌",
       "purpose": "增加斜方肌的弹性和伸展性，改善颈椎活动度。",
       "startingPosition": {
-        "sideNote": "以拉伸左侧斜方肌为例",
         "posture": "站/坐，腰背挺直",
-        "upperBody": "右手（对侧手）放在左侧斜方肌上部",
+        "upperBody": "对侧手放在斜方肌上部",
         "torso": "固定不动",
-        "lowerBody": "站/双腿交叉盘坐，保持稳定"
+        "lowerBody": "保持稳定"
       },
-      "forceDirection": "吐气向下自然发力，感受左侧斜方肌拉伸",
-      "intensityAndDuration": "当感受到有明显牵拉感时(RPE5-6)保持30S",
-      "precautions": "自然呼吸，脊柱中立，不要耸肩或扭转颈部"
+      "forceDirection": "吐气向自然发力，感受斜方肌拉伸",
+      "intensityAndDuration": "当感受到有明显牵拉感时(RPE5-6) 时间约30秒",
+      "durationSeconds": 30,
+      "precautions": "自然呼吸，脊柱中立，不要耸肩或扭转颈部",
+      "adjustmentPurpose": "训练后斜方肌酸痛"
     },
     {
       "id": "pectoralis-major-stretch",
-      "name": "胸大肌静态拉伸",
+      "name": "胸大肌",
       "starred": true,
-      "targetMuscle": "胸大肌",
-      "purpose": "增加胸部弹性和延展性，改善肩部活动度",
+      "purpose": "增加胸部弹性和延展性, 改善肩部活动度",
       "startingPosition": {
-        "sideNote": "以右侧为例",
         "posture": "站立",
-        "upperBody": "拉伸侧胳膊屈肘90度，小臂贴合墙面",
+        "upperBody": "小臂贴合墙面, 屈肘90度",
+        "torso": "保持脊柱中立",
         "lowerBody": "左侧脚向前迈一步"
       },
-      "forceDirection": "躯干固定不动，吐气向前自然发力",
-      "intensityAndDuration": "当感受到有明显牵拉感时(RPE5-6)保持30S",
-      "precautions": "自然呼吸，脊柱中立"
+      "forceDirection": "躯干固定不动, 吐气向前自然发力",
+      "intensityAndDuration": "当感受到有明显牵拉感时(RPE5-6) 时间约30秒",
+      "durationSeconds": 30,
+      "precautions": "自然呼吸, 脊柱中立",
+      "adjustmentPurpose": "训练后斜方肌酸痛"
     },
     {
       "id": "posterior-deltoid-stretch",
-      "name": "三角肌后束静态拉伸",
+      "name": "三角肌后束",
       "starred": true,
-      "targetMuscle": "三角肌后束",
       "purpose": "增加三角肌的弹性和伸展性，改善肩关节活动度。",
       "startingPosition": {
-        "sideNote": "以右侧三角肌后束为例",
         "posture": "跪姿或坐姿，上半身挺直",
         "upperBody": "左手托住右手大臂，置于胸前，手肘伸直",
-        "torso": "保持挺拔",
-        "lowerBody": "跪姿时双膝与肩同宽，或坐姿时双脚踩实地面"
+        "lowerBody": "保持稳定"
       },
       "forceDirection": "躯干固定不动，手臂向躯干方向发力，让肩膀向后收",
-      "intensityAndDuration": "当感受到有明显牵拉感时(RPE5-6)保持30S",
+      "intensityAndDuration": "当感受到有明显牵拉感时(RPE5-6) 时间约30秒",
+      "durationSeconds": 30,
       "precautions": "自然呼吸，肩胛下沉稳定，躯干不扭转"
     },
     {
       "id": "triceps-stretch",
-      "name": "肱三头肌静态拉伸",
+      "name": "肱三头肌",
       "starred": true,
-      "targetMuscle": "肱三头肌",
-      "purpose": "增加肱三头肌的弹性和伸展性，改善肩关节活动度。",
+      "purpose": "增加肱三头肌的弹性和伸展性，改善肩关节活动度",
       "startingPosition": {
-        "sideNote": "以右侧肱三头肌为例",
         "posture": "坐在训练凳上",
         "upperBody": "右手肘充分折叠，手扶住同侧肩胛骨；左手托住右手大臂远端",
-        "torso": "保持挺拔",
         "lowerBody": "双脚踩实地面"
       },
-      "forceDirection": "躯干固定不动，左手托右手向右手前臂方向发力",
-      "intensityAndDuration": "当感受到有明显牵拉感时(RPE5-6)保持30S",
-      "precautions": "自然呼吸，脊柱中立"
+      "forceDirection": "向靠近耳侧拉伸",
+      "intensityAndDuration": "当感受到有明显牵拉感时(RPE5-6) 时间约30秒",
+      "durationSeconds": 30,
+      "precautions": "自然呼吸，肩胛下沉稳定，躯干不扭转"
     }
   ]
 }

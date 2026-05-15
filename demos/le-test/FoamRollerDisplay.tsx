@@ -1,33 +1,27 @@
-import type { FoamRollerRelease, FoamRollerStartingPosition } from './types'
+import type { FoamRollerMethod, FoamRollerRelease } from './types'
 
-const STARTING_POSITION_LABELS: {
-  key: keyof FoamRollerStartingPosition
+const METHOD_LABELS: {
+  key: keyof FoamRollerMethod
   label: string
 }[] = [
-  { key: 'sideNote', label: '示例' },
   { key: 'posture', label: '姿态' },
-  { key: 'upperBody', label: '上肢' },
-  { key: 'lowerBody', label: '下肢' },
+  { key: 'foamRollerPosition', label: '泡沫轴位置' },
   { key: 'movement', label: '运动' },
 ]
 
-function StartingPositionBlock({
-  position,
-}: {
-  position: FoamRollerStartingPosition
-}) {
-  const entries = STARTING_POSITION_LABELS.filter(({ key }) => position[key])
+function MethodBlock({ method }: { method: FoamRollerMethod }) {
+  const entries = METHOD_LABELS.filter(({ key }) => method[key])
 
   if (entries.length === 0) return null
 
   return (
     <div>
-      <p className="font-semibold text-muted-foreground mb-2">起始位置</p>
+      <p className="font-semibold text-muted-foreground mb-2">方式方法</p>
       <ul className="space-y-1 pl-4 list-disc text-sm leading-relaxed">
         {entries.map(({ key, label }) => (
           <li key={key}>
             <span className="font-medium">{label}：</span>
-            {position[key]}
+            {method[key]}
           </li>
         ))}
       </ul>
@@ -39,7 +33,7 @@ export function FoamRollerCard({ release }: { release: FoamRollerRelease }) {
   return (
     <div className="space-y-4 text-sm leading-relaxed">
       <p>
-        <span className="font-semibold text-muted-foreground">目标肌群：</span>
+        <span className="font-semibold text-muted-foreground">目标肌肉：</span>
         {release.targetMuscle}
       </p>
 
@@ -48,7 +42,12 @@ export function FoamRollerCard({ release }: { release: FoamRollerRelease }) {
         {release.purpose}
       </p>
 
-      <StartingPositionBlock position={release.startingPosition} />
+      <MethodBlock method={release.method} />
+
+      <p>
+        <span className="font-semibold text-muted-foreground">读秒：</span>
+        {release.durationSeconds}S
+      </p>
 
       <p>
         <span className="font-semibold text-muted-foreground">难度改善：</span>
@@ -56,8 +55,13 @@ export function FoamRollerCard({ release }: { release: FoamRollerRelease }) {
       </p>
 
       <p>
-        <span className="font-semibold text-muted-foreground">针对人群：</span>
-        {release.targetPopulation}
+        <span className="font-semibold text-muted-foreground">注意事项：</span>
+        {release.precautions}
+      </p>
+
+      <p>
+        <span className="font-semibold text-muted-foreground">调整问题：</span>
+        {release.adjustmentIssues}
       </p>
     </div>
   )
