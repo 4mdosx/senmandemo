@@ -1,4 +1,34 @@
-import type { Exercise } from './types'
+import type { Exercise, StartingPosition } from './types'
+
+const STARTING_POSITION_LABELS: {
+  key: keyof StartingPosition
+  label: string
+}[] = [
+  { key: 'posture', label: '姿态' },
+  { key: 'upperBody', label: '上肢' },
+  { key: 'torso', label: '躯干' },
+  { key: 'lowerBody', label: '下肢' },
+]
+
+function StartingPositionBlock({ position }: { position: StartingPosition }) {
+  const entries = STARTING_POSITION_LABELS.filter(({ key }) => position[key])
+
+  if (entries.length === 0) return null
+
+  return (
+    <div>
+      <p className="font-semibold text-muted-foreground mb-2">起始位置</p>
+      <ul className="space-y-1 pl-4 list-disc text-sm leading-relaxed">
+        {entries.map(({ key, label }) => (
+          <li key={key}>
+            <span className="font-medium">{label}：</span>
+            {position[key]}
+          </li>
+        ))}
+      </ul>
+    </div>
+  )
+}
 
 export function ExerciseCard({ exercise }: { exercise: Exercise }) {
   return (
@@ -12,6 +42,8 @@ export function ExerciseCard({ exercise }: { exercise: Exercise }) {
         <span className="font-semibold text-muted-foreground">收益：</span>
         {'提高肌肉的力量和耐力' + (exercise.benefits ? '、' + exercise.benefits : '')}
       </p>
+
+      <StartingPositionBlock position={exercise.startingPosition} />
 
       <p>
         <span className="font-semibold text-muted-foreground">运动幅度：</span>

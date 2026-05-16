@@ -26,7 +26,7 @@ export default function Question1(props: ExamQuestionProps = {}) {
       title={
         <ExerciseTitleBlock
           exercise={current}
-          prompt="请说出该动作的目标肌群、收益、运动幅度、呼吸、要点及进退阶"
+          prompt="请说出该动作的目标肌群、收益、起始位置、运动幅度、呼吸、要点及进退阶"
         />
       }
       answer={<ExerciseCard exercise={current} />}
